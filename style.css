@@ -1,15 +1,11 @@
 h1 {
-    text-decoration: underline red wavy;
+    font-style: italic;
 }
 
 h2 {
-    text-decoration: overline blue dashed;
+    font-style: oblique;
 }
 
 p {
-    text-decoration: line-through green solid;
-}
-
-a {
-    text-decoration: none;
+    font-style: oblique; /* most browser not support oblique degree */
 }
