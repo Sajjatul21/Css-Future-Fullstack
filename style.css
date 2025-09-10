@@ -1,11 +1,6 @@
-h1 {
-    text-transform: uppercase;
-}
-
-h2 {
-    text-transform: lowercase;
-}
-
-p {
-    text-transform: capitalize;
+ul{
+    /* list-style: circle; */
+    /* list-style: square; */
+    /* list-style: disc; */
+    list-style: none;
 }
