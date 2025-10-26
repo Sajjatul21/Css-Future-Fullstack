@@ -1,11 +1,11 @@
 h1{
-    text-decoration: underline red wavy;
+    font-style: italic;
 }
 h2{
-    text-decoration: line-through green dashed;
+   font-style: oblique;
 }
  p{
-    text-decoration: overline blue ;
+    font-style: oblique 10deg;
  }
 a{
     text-decoration: none;
