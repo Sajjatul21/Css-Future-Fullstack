@@ -1,6 +1,12 @@
 h1{
-    font-weight: 400;
+    text-decoration: underline red wavy;
 }
-p{
-    font-weight: 700;
+h2{
+    text-decoration: line-through green dashed;
+}
+ p{
+    text-decoration: overline blue ;
+ }
+a{
+    text-decoration: none;
 }
