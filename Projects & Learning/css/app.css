@@ -1,3 +1,44 @@
+/* 
+
+-----------------TYPOGRAPHY--------------
+FONT SIZE
+12Px/16px/20px/24px/32px/40px/48px/62px
+
+FONT WEIGHT
+400/600
+
+LINE HEIGHT
+1.2/1.5
+
+LETTER SPACING
+0/-2
+
+PONT FAMILY
+POPPINS
+
+-----------------COLOR--------------
+
+PRIMARY
+Base: #339afo (Sky Blue)
+Tint: #d0ebff (Arctic)
+Shade: #1c7ed6 (Deep Sea)
+
+SECONDARY
+Base:   #9775fa(Lavendar)
+Tint: #e5dff  (Moonlight Iris)
+Shade: #7048e8
+
+TERTIARY
+Base: #ff922b (Pumpkin)
+Tint: #ffeBcc (Dawn)
+Shade: #f76707 (Lava)
+
+GREY
+Base:   #495057 (State) 
+Tint: #f1f3f5 (Pebble)
+Shade: #212529 (Graphite)
+*/
+
 h1 {
     font-weight: 700;
     text-align: center;
