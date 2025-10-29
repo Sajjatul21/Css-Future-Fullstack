@@ -19,7 +19,7 @@ POPPINS
 -----------------COLOR--------------
 
 PRIMARY
-Base: #339afo (Sky Blue)
+Base: #339af0 (Sky Blue)
 Tint: #d0ebff (Arctic)
 Shade: #1c7ed6 (Deep Sea)
 
@@ -76,7 +76,8 @@ h5 {
 }
 
 p,
-a {
+a,
+.small-text {
     font-weight: 400;
     line-height: 1.5;
     font-family: "Poppins", sans-serif;
@@ -97,10 +98,20 @@ ul {
     list-style: none;
 }
 
-#green-text {
-    color: green
+.small-text {
+    font-size: 12px;
+}
+.btn {
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-size: 16px;
 }
 
-.orange-text {
-    color: orange;
+.btn-primary {
+    color: #339af0;
+}
+
+.btn-secondary {
+    color: #9775fa;
 }
