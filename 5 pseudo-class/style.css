@@ -1,12 +1,12 @@
-a:link{
+/* li:first-child{
     color: blue;
 }
-a:visited{
-    color: red;
-}
-a:hover{
-    color: green;
-}
-a:active{
+li:last-child{
+    color: brown;
+} */
+ li:nth-child(2n){
     color: yellow;
-}
+ }
+ li:nth-child(2n+1){
+    color: red;
+ }
