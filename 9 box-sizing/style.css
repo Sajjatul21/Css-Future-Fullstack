@@ -1,0 +1,16 @@
+.div-1 {
+    width: 400px;
+    height: 200px;
+    padding: 50px;
+    border: 2px solid black;
+    background-color: plum;
+}
+
+.div-2 {
+    width: 400px;
+    height: 200px;
+    padding: 50px;
+    border: 2px solid black;
+    background-color: plum;
+    box-sizing: border-box;
+}
