@@ -147,27 +147,48 @@ ul {
     background-color: #ff922b;
 }
 
+.logo-md {
+    width: 100px;
+}
+
+.logo-sm {
+    width: 80px;
+}
+
 /* ----------------------SECTION---------------------- */
 /* -----------HERO SECTION----------- */
 .hero-section {
     text-align: center;
 }
 
-/* -----------CTA SECTION----------- */
-
+/* -----------FEATURE SECTION----------- */
 .feature-main-heading {
     text-align: center;
 }
+
+.feature-img {
+    width: 400px;
+}
+
+/* -----------CTA SECTION----------- */
+
+
 
 .cta-section {
     text-align: center;
 }
 
 .cta-card {
+    text-align: center;
     background-color: #1c7ed6;
+    width: 1000px;
 }
 
 /* -----------FOOTER SECTION----------- */
 .footer {
     text-align: center;
+}
+
+.social-icons {
+    width: 20px;
 }
