@@ -105,6 +105,7 @@ ul {
     text-decoration: none;
     font-size: 16px;
     padding: 15px 30px;
+    border-radius: 8px;
 }
 
 .btn-primary:link,
@@ -153,6 +154,8 @@ ul {
 .highlight {
     color: #fff;
     padding: 5px 10px;
+    border-radius: 4px;
+
 }
 
 .highlight-primary {
@@ -203,6 +206,7 @@ ul {
     background-color: #1c7ed6;
     width: 1000px;
     padding: 100px 200px;
+    border-radius: 20px;
 }
 
 /* -----------FOOTER SECTION----------- */
