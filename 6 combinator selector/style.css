@@ -1,5 +1,4 @@
-/* adjacent means next to  */
-h1+p {
+h1~p {
     color: red;
     font-size: 20px;
 }
