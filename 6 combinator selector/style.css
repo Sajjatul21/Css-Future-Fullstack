@@ -1,4 +1,5 @@
-.article>p {
-    color: green;
+/* adjacent means next to  */
+h1+p {
+    color: red;
     font-size: 20px;
 }
