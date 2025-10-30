@@ -130,6 +130,23 @@ ul {
     background-color: #7048e8;
 }
 
+
+.highlight {
+    color: #fff;
+}
+
+.highlight-primary {
+    background-color: #339af0;
+}
+
+.highlight-secondary {
+    background-color: #9775fa;
+}
+
+.highlight-tertiary {
+    background-color: #ff922b;
+}
+
 /* ----------------------SECTION---------------------- */
 /* -----------HERO SECTION----------- */
 .hero-section {
@@ -146,23 +163,11 @@ ul {
     text-align: center;
 }
 
+.cta-card {
+    background-color: #1c7ed6;
+}
+
 /* -----------FOOTER SECTION----------- */
 .footer {
     text-align: center;
-}
-
-.highlight {
-    color: #fff;
-}
-
-.highlight-primary {
-    background-color: #339af0;
-}
-
-.highlight-secondary {
-    background-color: #9775fa;
-}
-
-.highlight-tertiary {
-    background-color: #ff922b;
 }
