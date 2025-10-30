@@ -38,6 +38,8 @@ Base:   #495057 (State)
 Tint: #f1f3f5 (Pebble)
 Shade: #212529 (Graphite)
 */
+
+/* ----------------------GLOBAL STYLE---------------------- */
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -57,13 +59,11 @@ h5 {
 }
 
 h1 {
-    text-align: center;
     font-size: 62px;
 
 }
 
 h2 {
-    text-align: center;
     font-size: 48px;
 }
 
@@ -99,6 +99,7 @@ ul {
     font-size: 12px;
 }
 
+/* ----------------------COMPONENT---------------------- */
 .btn {
     font-weight: 400;
     text-decoration: none;
@@ -123,4 +124,25 @@ ul {
 .btn-secondary:hover,
 .btn-secondary:active {
     color: #7048e8;
+}
+
+/* ----------------------SECTION---------------------- */
+/* -----------HERO SECTION----------- */
+.hero-section {
+    text-align: center;
+}
+
+/* -----------CTA SECTION----------- */
+
+.feature-main-heading {
+    text-align: center;
+}
+
+.cta-section {
+    text-align: center;
+}
+
+/* -----------FOOTER SECTION----------- */
+.footer {
+    text-align: center;
 }
