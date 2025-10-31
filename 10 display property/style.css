@@ -5,4 +5,7 @@
     background-color: lightgreen;
     border: 10px solid red;
     margin: 100px 100px;
+    /* display: inline; */
+    /* display: block; */
+    display: inline-block;
 }
