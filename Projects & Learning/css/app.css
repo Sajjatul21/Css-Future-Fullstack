@@ -1,6 +1,6 @@
 /* 
 
------------------TYPOGRAPHY--------------
+--------------TYPOGRAPHY--------------
 FONT SIZE
 12Px/16px/20px/24px/32px/40px/48px/62px
 
@@ -16,7 +16,7 @@ LETTER SPACING
 PONT FAMILY
 POPPINS
 
------------------COLOR--------------
+--------------COLOR--------------
 
 PRIMARY
 Base: #339af0 (Sky Blue)
@@ -37,7 +37,20 @@ GREY
 Base:   #495057 (State) 
 Tint: #f1f3f5 (Pebble)
 Shade: #212529 (Graphite)
+
+
+--------------BORDER RADIUS--------------
+
+4px/8px/20px
+
+--------------SPACING SYSTEM--------------
+
+5px/10px/15px/20px/25px/30px/40px/50px/60px/70px /80px/90px/100px/125px/150px/200px/ 250px/300px/ 400px/ 500px
+
 */
+
+
+
 
 /* ----------------------GLOBAL STYLE---------------------- */
 * {
@@ -183,14 +196,34 @@ ul {
 }
 
 /* ----------------------SECTION---------------------- */
+/* -----------NAVBAR----------- */
+.navbar {
+    margin-bottom: 200px;
+}
+
 /* -----------HERO SECTION----------- */
 .hero-section {
     text-align: center;
+    margin: 300px;
+}
+
+
+.hero-heading {
+    margin-bottom: 10px;
+}
+
+.hero-paragraph {
+    margin-bottom: 50px;
 }
 
 /* -----------FEATURE SECTION----------- */
+.feature-section {
+    margin-bottom: 300px;
+}
+
 .feature-main-heading {
     text-align: center;
+    margin: 80px;
 }
 
 .feature-img {
@@ -200,9 +233,9 @@ ul {
 /* -----------CTA SECTION----------- */
 
 
-
 .cta-section {
-    text-align: center;
+    margin-bottom: 300px;
+
 }
 
 .cta-card {
