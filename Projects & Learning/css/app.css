@@ -233,6 +233,10 @@ span {
     margin: 80px;
 }
 
+.feature-heading {
+    margin-bottom: 20px;
+}
+
 .feature-img {
     width: 400px;
 }
