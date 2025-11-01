@@ -55,6 +55,8 @@ Shade: #212529 (Graphite)
 /* ----------------------GLOBAL STYLE---------------------- */
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
