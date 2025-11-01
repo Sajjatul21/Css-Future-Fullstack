@@ -1,0 +1,11 @@
+.container {
+    max-width: 1000px;
+    height: 400px;
+    background-color: salmon;
+
+}
+
+img {
+    max-width: 1000px;
+    width: 100%;
+}
