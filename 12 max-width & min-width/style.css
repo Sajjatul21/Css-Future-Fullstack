@@ -1,11 +1,6 @@
-.container {
-    max-width: 1000px;
+.card {
+    /* width: 800px; */
+    min-width: 800px;
     height: 400px;
-    background-color: salmon;
-
-}
-
-img {
-    max-width: 1000px;
-    width: 100%;
+    background-color: firebrick;
 }
