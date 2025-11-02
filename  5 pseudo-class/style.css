@@ -6,7 +6,7 @@ li:last-child{
 } */
  li:nth-child(2n){
     color: yellow;
- }
+ }k
  li:nth-child(2n+1){
     color: red;
  }
