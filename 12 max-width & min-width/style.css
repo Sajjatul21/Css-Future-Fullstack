@@ -1,6 +1,23 @@
-.card {
-    /* width: 800px; */
-    min-width: 800px;
-    height: 400px;
-    background-color: firebrick;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.no-width {
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.width {
+    width: 100px;
+    background-color: lightcoral;
+    display: inline-block;
+    text-align: center;
+}
+
+.min-width {
+    min-width: 100px;
+    background-color: lightblue;
+    display: inline-block;
+    text-align: center;
 }
