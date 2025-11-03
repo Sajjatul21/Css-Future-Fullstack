@@ -1,0 +1,32 @@
+.flex-container {
+    width: 800px;
+    height: 800px;
+    background-color: lightgray;
+    font-size: 30px;
+    color: white;
+    display: flex;
+}
+
+.item-1 {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}
+
+.item-2 {
+    width: 50px;
+    height: 300px;
+    background-color: purple;
+}
+
+.item-3 {
+    width: 100px;
+    height: 150px;
+    background-color: red;
+}
+
+.item-4 {
+    width: 150px;
+    height: 50px;
+    background-color: green;
+}
