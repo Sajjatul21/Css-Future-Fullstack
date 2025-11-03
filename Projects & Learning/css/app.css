@@ -59,6 +59,10 @@ Shade: #212529 (Graphite)
     padding: 0;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -85,35 +89,35 @@ h5 {
 }
 
 h1 {
-    font-size: 62px;
+    font-size: 6.2rem;
 
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 4.8rem;
 }
 
 h3 {
 
-    font-size: 40px;
+    font-size: 4rem;
 }
 
 h4 {
 
-    font-size: 32px;
+    font-size: 3.2rem;
 }
 
 h5 {
-    font-size: 24px;
+    font-size: 2.4rem;
 }
 
 p {
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 a {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1.6rem;
     display: inline-block;
 
 }
@@ -127,15 +131,15 @@ span {
 }
 
 .small-text {
-    font-size: 12px;
+    font-size: 1.2rem;
 }
 
 /* ----------------------COMPONENT---------------------- */
 .btn {
     font-weight: 400;
     text-decoration: none;
-    font-size: 16px;
-    padding: 15px 30px;
+    font-size: 1.6rem;
+    padding: 1.5rem 3rem;
     border-radius: 8px;
 }
 
@@ -184,7 +188,7 @@ span {
 
 .highlight {
     color: #fff;
-    padding: 5px 10px;
+    padding: 0.5rem 1rem;
     border-radius: 4px;
 
 }
@@ -210,38 +214,44 @@ span {
 }
 
 /* ----------------------SECTION---------------------- */
+
+.header {
+    height: 100vh;
+    min-height: 800px;
+}
+
 /* -----------NAVBAR----------- */
 .navbar {
-    margin-bottom: 200px;
+    margin-bottom: 20rem;
 }
 
 /* -----------HERO SECTION----------- */
 .hero-section {
     text-align: center;
-    margin-bottom: 300px;
+    margin-bottom: 30rem;
 }
 
 
 .hero-heading {
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 .hero-paragraph {
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
 }
 
 /* -----------FEATURE SECTION----------- */
 .feature-section {
-    margin-bottom: 300px;
+    margin-bottom: 30rem;
 }
 
 .feature-main-heading {
     text-align: center;
-    margin: 80px;
+    margin: 8rem;
 }
 
 .feature-heading {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 .feature-img {
@@ -253,7 +263,7 @@ span {
 
 
 .cta-section {
-    margin-bottom: 300px;
+    margin-bottom: 30rem;
 
 }
 
@@ -261,13 +271,13 @@ span {
     text-align: center;
     background-color: #1c7ed6;
     max-width: 1000px;
-    padding: 100px 200px;
+    padding: 10rem 20rem;
     margin: 0 auto;
     border-radius: 20px;
 }
 
 .cta-heading {
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 /* -----------FOOTER SECTION----------- */

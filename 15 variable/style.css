@@ -1,0 +1,31 @@
+:root {
+    --primary: #12ba87;
+    --gray: #333333;
+    --text-sm: 20px;
+    --text-lg: 50px
+}
+
+.btn {
+    /* font-size: 20px; */
+    font-size: var(--text-sm);
+    /* background-color: #12ba87; */
+    background-color: var(--primary);
+    padding: 20px 40px;
+    margin-bottom: 30px;
+    display: inline-block;
+    color: #333333;
+}
+
+.card {
+    /* background-color: #12ba87; */
+    background-color: var(--primary);
+    width: 800px;
+    height: 400px;
+
+}
+
+h1 {
+    /* font-size: 50px; */
+    font-size: var(--text-lg);
+    color: #333333;
+}
