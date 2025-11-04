@@ -265,6 +265,8 @@ span {
 /* -----------NAVBAR----------- */
 .navbar {
     height: var(--nav-height);
+    display: flex;
+    justify-content: space-between;
 }
 
 /* -----------HERO SECTION----------- */
@@ -326,7 +328,8 @@ span {
 
 /* -----------FOOTER SECTION----------- */
 .footer {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .social-icons {
