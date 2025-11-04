@@ -6,17 +6,9 @@
       background-color: lightblue;
       display: flex;
       flex-direction: column;
-
-
-  }
-
-  a {
-      height: 20px;
-      padding: 10px;
-      background-color: lightcoral;
       text-align: center;
   }
 
   img {
-      height: 100px;
+      width: 100px;
   }
