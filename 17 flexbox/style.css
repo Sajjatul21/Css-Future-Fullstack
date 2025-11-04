@@ -1,5 +1,5 @@
 .flex-container {
-    /* height: 800px; */
+    height: 800px;
     background-color: lightgray;
     font-size: 30px;
     color: white;
@@ -8,7 +8,8 @@
     /* align-items: stretch; default */
     /* align-items: baseline; */
     align-items: flex-end;
-    /* justify-content: center; not working  */
+    justify-content: center;
+    /*now working */
 
 
 }
