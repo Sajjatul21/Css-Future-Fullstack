@@ -1,11 +1,22 @@
- .container {
+  /* 
+ Flexbox overrides display behavior of block and inline elements.By applying the property display flex to the parent container, it totally overrides block and inline elements. In flex container  elements are now flex items, overriding the inherent nature of block and inline elements. all elements now start on their own line, and by default stretch. So we no longer view our elements now as block and inline,when inside a flex container.They're flex items.What were inline elements, like images and anchor tags, now each appear on their own line, and also stretch the full width of the page.
+ */
+  .container {
 
-     background-color: lightblue;
-     text-align: center;
-     /* its block element*/
- }
+      background-color: lightblue;
+      display: flex;
+      flex-direction: column;
 
- a {
-     text-align: center;
-     /*not working because its inline element*/
- }
+
+  }
+
+  a {
+      height: 20px;
+      padding: 10px;
+      background-color: lightcoral;
+      text-align: center;
+  }
+
+  img {
+      height: 100px;
+  }
