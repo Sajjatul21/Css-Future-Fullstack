@@ -4,29 +4,36 @@
     height: 500px;
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
+    /* align-items: flex-start; align content override align items value */
+    /* align-content: center; */
+
+    /* align-content: stretch; default value. if set height stretch not working */
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: space-between; */
+    align-content: space-around;
 }
 
 .flex-item-1 {
     width: 300px;
-    /* height: 100px; */
+    height: 100px;
     background-color: lightcoral;
 }
 
 .flex-item-2 {
     width: 300px;
-    /* height: 100px; */
+    height: 100px;
     background-color: lightyellow;
 }
 
 .flex-item-3 {
     width: 300px;
-    /* height: 100px; */
+    height: 100px;
     background-color: lightgreen;
 }
 
 .flex-item-4 {
     width: 300px;
-    /* height: 100px; */
+    height: 100px;
     background-color: lightseagreen;
 }
