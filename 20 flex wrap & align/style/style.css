@@ -3,31 +3,30 @@
     width: 1000px;
     height: 500px;
     display: flex;
-    /* flex-wrap: nowrap; default */
     flex-wrap: wrap;
-    /* flex-wrap: wrap-reverse; */
+    align-content: center;
 }
 
 .flex-item-1 {
     width: 300px;
-    height: 100px;
+    /* height: 100px; */
     background-color: lightcoral;
 }
 
 .flex-item-2 {
     width: 300px;
-    height: 100px;
+    /* height: 100px; */
     background-color: lightyellow;
 }
 
 .flex-item-3 {
     width: 300px;
-    height: 100px;
+    /* height: 100px; */
     background-color: lightgreen;
 }
 
 .flex-item-4 {
     width: 300px;
-    height: 100px;
+    /* height: 100px; */
     background-color: lightseagreen;
 }
