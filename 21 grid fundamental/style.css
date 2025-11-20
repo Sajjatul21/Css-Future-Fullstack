@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    font-size: 40px;
+    display: grid;
+}
+
+.grid-item-1 {
+    background-color: lightgoldenrodyellow;
+}
+
+.grid-item-2 {
+    background-color: lightgreen;
+}
+
+.grid-item-3 {
+    background-color: lightcoral;
+}
+
+.grid-item-4 {
+    background-color: lightseagreen;
+}
+
+.grid-item-5 {
+    background-color: lightskyblue;
+}
+
+.grid-item-6 {
+    background-color: lightyellow;
+}
+
+.grid-item-7 {
+    background-color: lightskyblue;
+}
+
+.grid-item-8 {
+    background-color: lightcyan;
+}
