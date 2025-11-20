@@ -1,36 +1,33 @@
 .flex-container {
     background-color: rgb(209, 202, 202);
     width: 1000px;
-    height: 500px;
+    /* height: 500px; */
     display: flex;
-
+    /* flex-wrap: nowrap; default */
+    /* flex-wrap: wrap; */
+    flex-wrap: wrap-reverse;
 }
 
 .flex-item-1 {
     width: 300px;
     height: 100px;
     background-color: lightcoral;
-    /* flex-shrink: 1; (default) */
-    flex-shrink: 0;
 }
 
 .flex-item-2 {
     width: 300px;
     height: 100px;
     background-color: lightyellow;
-    flex-shrink: 0;
 }
 
 .flex-item-3 {
     width: 300px;
     height: 100px;
     background-color: lightgreen;
-    flex-shrink: 0;
 }
 
 .flex-item-4 {
     width: 300px;
     height: 100px;
     background-color: lightseagreen;
-    flex-shrink: 0;
 }
